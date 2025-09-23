@@ -14,7 +14,7 @@ PartyPop/
 
 ---
 
-## Licnse
+## License
 This project is licensed under a **custom non-commercial license**.  
 You may use, modify, and distribute the code freely for personal or educational purposes.  
 **Commercial use and selling the software or derivatives are not permitted.**
