@@ -3,13 +3,12 @@
 #include <PubSubClient.h>
 
 #define BUTTON_PIN 14 // Water Sensor
-#define BUTTON_PIN 15 // Reset
 #define DEBOUNCE_MS 250
 
-const char* ssid = "A1_43E6CA";
-const char* password = "2UY7758742";
+const char* ssid = "test-esp32";
+const char* password = "";
 
-const char* mqtt_server = "192.168.0.4";
+const char* mqtt_server = "192.168.88.254";
 const int   mqtt_port   = 1883;
 const char* mqtt_topic  = "sensor/water";
 

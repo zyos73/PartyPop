@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f7e3adbecff85bc3",
+        "id": "55b49568d6dd5a17",
         "type": "tabs",
         "children": [
           {
-            "id": "8d61fa0c77ae04ee",
+            "id": "222f28c89da8b2e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_gedankengang/lösungsansätze/01_Entwicklungsumgebung einrichten.md",
-                "mode": "preview",
+                "file": "02_gedankengang/lösungsansätze/06_Taster mit MQTT Verbindung finalisieren.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01_Entwicklungsumgebung einrichten"
+              "title": "06_Taster mit MQTT Verbindung finalisieren"
             }
           }
         ]
@@ -183,24 +183,26 @@
       "bases:Create new base": false
     }
   },
-  "active": "8d61fa0c77ae04ee",
+  "active": "222f28c89da8b2e6",
   "lastOpenFiles": [
-    "07_zeit_und_aufwand/zeitaufwand_tabelle.md",
+    "02_gedankengang/lösungsansätze/05_MQTT Verbindung programmieren zum ESP32.md",
+    "02_gedankengang/lösungsansätze/04_MQTT Schnittstellenbeschreibung.md",
+    "02_gedankengang/lösungsansätze/03_Fehlerbehebung und Robustheit.md",
     "02_gedankengang/lösungsansätze/01_Entwicklungsumgebung einrichten.md",
     "02_gedankengang/lösungsansätze/02_Hardware Grundlagen aufbauen und Testen mit dem Taster.md",
+    "_media/esp32-schalter-aufbau.png",
+    "04_software/mqtt_schnittstellenbeschreibung.md",
+    "04_software/code_erklärung.md",
+    "02_gedankengang/lösungsansätze/06_Taster mit MQTT Verbindung finalisieren.md",
     "01_einleitung/meine_aufgaben.md",
+    "02_gedankengang/lösungsansätze/test.md",
+    "07_zeit_und_aufwand/zeitaufwand_tabelle.md",
     "03_hardware/schaltkreis_beschreibung.md",
     "03_hardware/hardware_beschreibung.md",
     "02_gedankengang/warum_mqtt.md",
     "02_gedankengang/warum_esp32.md",
-    "04_software/code_erklärung.md",
     "04_software/code/main/Untitled.base",
     "04_software/code/main/main.ino",
-    "_media/esp32-schalter-aufbau.png",
-    "02_gedankengang/lösungsansätze/06_Taster mit MQTT Verbindung finalisieren.md",
-    "02_gedankengang/lösungsansätze/05_MQTT Verbindung programmieren zum ESP32.md",
-    "02_gedankengang/lösungsansätze/04_MQTT Schnittstellenbeschreibung.md",
-    "02_gedankengang/lösungsansätze/03_Fehlerbehebung und Robustheit.md",
     "02_gedankengang/lösungsansatz.md",
     "02_gedankengang/lösungsansätze",
     "2025-12-05.md",
@@ -213,7 +215,6 @@
     "_inhaltsverzeichnis",
     "06_reflexion/was_hab_ich_gelernt.md",
     "06_reflexion/probleme_und_lösungen.md",
-    "04_software/mqtt_topics.md",
     "05_tests/code",
     "04_software/code/main",
     "04_software/code/Untitled.md",

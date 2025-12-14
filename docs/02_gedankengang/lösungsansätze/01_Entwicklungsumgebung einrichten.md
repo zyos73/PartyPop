@@ -1,116 +1,97 @@
-# Übersicht
-- [Ziel der Aufgabe](#1%20ziel%20der%20aufgabe)  
-- [Arduino IDE installieren](#2%20arduino%20ide%20installieren)  
-- [CH340 Treiber installieren](#3%20ch340%20treiber%20installieren)  
-- [ESP32 Board-Paket installieren (GUI)](#4%20esp32%20board-paket%20installieren%20(gui))  
-- [ESP32 anschließen + COM-Port im Geräte-Manager prüfen](#5%20esp32%20anschließen%20+%20com-port%20im%20geräte-manager%20prüfen)  
-- [Board auswählen](#6%20board%20auswählen)  
-- [Testskript ausführen](#7%20testskript%20ausführen)  
-- [Ergebnis](#8%20ergebnis)
+# Entwicklungsumgebung – ESP32 einrichten und testen
 
+## Ziel
+Die Entwicklungsumgebung für den ESP32 wird eingerichtet und mit einem Testskript überprüft.
 
----
+## Verwendete Software
+- Arduino IDE  
+- CH340 USB-Seriell-Treiber  
+- ESP32 Board-Paket (Espressif)
 
-# Lösungsansatz – Entwicklungsumgebung einrichten
+## Installation der Arduino IDE
+Die Arduino IDE wird zum Programmieren des ESP32 verwendet.
 
-## 1. Ziel der Aufgabe
-Die Entwicklungsumgebung für den ESP32 muss vollständig eingerichtet werden.  
-Dies umfasst:
-- Installation der Arduino IDE  
-- Installation des CH340-Treibers  
-- Installation des ESP32 Board-Pakets  
-- Anschließen und Erkennen des ESP32  
-- Ausführen eines Testskripts, um die Verbindung zu prüfen  
-
----
-
-## 2. Arduino IDE installieren
-Die Arduino IDE ist die Software, mit der der ESP32 programmiert wird.
-
-**Downloadlink (offizielle Arduino-Seite):**  
+**Download:**  
 https://www.arduino.cc/en/software
 
 **Vorgehen:**
 1. Installer herunterladen  
 2. Setup ausführen  
-3. Standardoptionen bestätigen  
+3. Standardoptionen übernehmen  
 4. Arduino IDE starten  
 
----
+## Installation des CH340 Treibers
+Der CH340-Treiber wird benötigt, damit der ESP32 als COM-Port erkannt wird.
 
-## 3. CH340 Treiber installieren
-Viele ESP32 Boards benutzen den **CH340 USB-Seriell-Chip**.  
-Ohne diesen Treiber wird kein COM-Port angezeigt.
-
-**Downloadlink (Hersteller WCH):**  
+**Download:**  
 https://www.wch.cn/download/CH341SER_EXE.html
 
-**Installation:**
+**Vorgehen:**
 1. Datei herunterladen  
-2. Installer starten → „Install“  
-3. Nach Erfolgsmeldung: ESP32 anschließen  
-4. COM-Port sollte jetzt erscheinen  
+2. Installer starten  
+3. „Install“ auswählen  
+4. ESP32 nach Abschluss anschließen  
 
----
+## Installation des ESP32 Board-Pakets
 
-## 4. ESP32 Board-Paket installieren (GUI)
+### Board-URL hinzufügen
+Arduino IDE → **Datei → Voreinstellungen**
 
-### Schritt 1 – Board-URL eintragen  
-Arduino IDE → **Datei → Voreinstellungen**  
-Bei *Zusätzliche Boardverwalter-URLs* einfügen:
-`https://espressif.github.io/arduino-esp32/package_esp32_index.json`
+Eintragen bei **Zusätzliche Boardverwalter-URLs**:
+https://espressif.github.io/arduino-esp32/package_esp32_index.json
+
+### Board-Paket installieren
+Arduino IDE → **Werkzeuge → Board → Boardverwalter**
+
+Suchbegriff:
+esp32
 
 
----
+Installieren:
+**esp32 by Espressif Systems**
 
-### Schritt 2 – Board-Paket installieren  
-Arduino IDE → **Werkzeuge → Board → Boardverwalter**  
-Im Suchfeld eingeben:
-`esp32`
+## ESP32 anschließen und prüfen
+- ESP32 per **Micro-USB-Datenkabel** mit dem PC verbinden  
 
-Dann esp32 installieren:
-**„esp32 by Espressif Systems“**
+### COM-Port prüfen (Windows)
+- **Win + R → devmgmt.msc**  
+- **Anschlüsse (COM & LPT)**  
 
----
+Erwarteter Eintrag:
+USB-SERIAL CH340 (COMx)
 
-## 5. ESP32 anschließen + COM-Port im Geräte-Manager prüfen
 
-### ESP32 anschließen
-1. ESP32 per **Micro-USB-Kabel** mit dem PC verbinden  
-2. Kabel muss Daten übertragen können (keine reinen Ladekabel)
+## Board und Port auswählen
+Arduino IDE:
 
-### COM-Port im Geräte-Manager prüfen  
-Windows: **Win + R → devmgmt.msc**
+- **Werkzeuge → Board → ESP32 Arduino → ESP32 Dev Module**  
+- **Werkzeuge → Port → COMx**
 
-Dann nachschauen unter:
-**„Anschlüsse (COM & LPT)“**
+## Testskript ausführen
+Das Testskript dient zur Überprüfung der Verbindung.
 
-Dort sollte z. B. erscheinen:
-**USB-SERIAL CH340 (COM_)**
-
-Falls **kein Port angezeigt wird** → CH340 Treiber prüfen.
-
----
-
-## 6. Board auswählen
-Nach erfolgreicher Installation des Board-Pakets:
-
-Arduino IDE → **Werkzeuge → Board → ESP32 Arduino**
-
-Dann auswählen:
-**ESP32 Dev Module**
-
-Damit ist die IDE korrekt auf das verwendete Entwicklungsboard eingestellt.
-
----
-
-## 7. Testskript ausführen und Serial Monitor ansehen
-Zur Überprüfung, ob alles funktioniert, soll das Testskript benutzt werden.
-
-Dies befindet sich unter:
-```
+**Pfad:**
 docs/05_tests/code/consoleTest
-```
 
-Serial Plotter öffnen:
-**Rechts oben auf die Lupe drücken**
+**Hinweis:**
+- Der Ordnername muss dem Namen der `.ino`-Datei entsprechen.
+
+### Testdurchführung
+1. Testskript öffnen  
+2. Code auf den ESP32 hochladen  
+3. **Serial Monitor / Serial Plotter** öffnen  
+   - Lupe rechts oben anklicken  
+
+## Erwartetes Ergebnis
+- ESP32 wird erkannt  
+- Upload ohne Fehler  
+- Serielle Ausgabe sichtbar  
+
+## Typische Fehlerquellen
+- Falsches USB-Kabel  
+- CH340-Treiber nicht installiert  
+- Falsches Board oder Port ausgewählt  
+
+## Fazit
+Die Entwicklungsumgebung ist korrekt eingerichtet.  
+Der ESP32 ist bereit für weitere Hardware- und Softwaretests.
