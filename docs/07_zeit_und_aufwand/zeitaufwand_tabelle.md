@@ -4,7 +4,7 @@
 An allen unten angeführten Tagen wurde jeweils von **13:20 bis 16:50** gearbeitet.  
 Dies umfasst **Umsetzung, Nachdenken/Planung, Fehlersuche und Tests**.
 
-Arbeitszeit pro Termin: **3 h 30 min (3,5 h)**
+Arbeitszeit pro ITP Stunde: **3 h 30 min (3,5 h)**
 
 | Datum          | Uhrzeit (von–bis) | Tätigkeit                        | Zeit  |
 | -------------- | ----------------- | -------------------------------- | ----- |
@@ -28,20 +28,20 @@ Arbeitszeit pro Termin: **3 h 30 min (3,5 h)**
 ---
 
 ## Dokumentation (separate Tage)
-Die Dokumentation wurde **nicht** an den Projekttagen erstellt,  
+Die Dokumentation wurde **nicht** in den ITP Stunden erstellt,  
 sondern auf mehrere Tage verteilt.
 
-| Datum        | Uhrzeit (von–bis) | Tätigkeit           | Zeit |
-|--------------|-------------------|---------------------|------|
-| 11/Dec/25    | 15:00 – 17:00     | Dokumentation Teil 1 | 2,0 h |
-| 12/Dec/25    | 14:30 – 16:30     | Dokumentation Teil 2 | 2,0 h |
-| 13/Dec/25    | 16:00 – 18:00     | Dokumentation Teil 3 | 2,0 h |
+| Datum     | Uhrzeit (von–bis) | Tätigkeit            | Zeit  |
+| --------- | ----------------- | -------------------- | ----- |
+| 04/Oct/25 | 14:00 – 17:00     | Dokumentation Teil 1 | 3,0 h |
+| 01/Nov/25 | 14:30 – 17:30     | Dokumentation Teil 2 | 3,0 h |
+| 14/Dec/25 | 15:00 – 18:00     | Dokumentation Teil 3 | 3,0 h |
 
 **Zwischensumme Dokumentation:**  
-**6,0 h**
+**9,0 h**
 
 ---
 ## Gesamtzeit
 
 **Gesamtaufwand Projekt:**  
-**51,5 Stunden**
+**54,5 Stunden**
