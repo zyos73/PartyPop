@@ -7,7 +7,7 @@ Offizielle Download-Seite:
 https://www.arduino.cc/en/software/
 
 Auf der Seite nach unten scrollen und das passende Betriebssystem auswählen.  
-![](/_media/arduino-ide-download-site.png)
+![](../_media/arduino-ide-download-site.png)
 
 Die heruntergeladene `.exe` Datei öffnen und dem Installationsassistenten folgen.  
 ![](/_media/arduino-ide-installation-guide.png)
