@@ -5,12 +5,12 @@
 #define BUTTON_PIN 14 // Water Sensor
 #define DEBOUNCE_MS 250
 
-const char* ssid = "test-esp32";
-const char* password = "";
+const char* ssid = "ssid"; // configure this
+const char* password = "password"; // configure this
 
-const char* mqtt_server = "192.168.88.254";
-const int   mqtt_port   = 1883;
-const char* mqtt_topic  = "sensor/water";
+const char* mqtt_server = "0.0.0.0"; // configure this
+const int   mqtt_port   = 1883; // configure this
+const char* mqtt_topic  = "sensor/water"; // configure this
 
 WiFiClient espClient;
 PubSubClient client(espClient);
