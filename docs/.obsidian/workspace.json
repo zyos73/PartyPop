@@ -185,8 +185,9 @@
   },
   "active": "ea366a1cb71c5451",
   "lastOpenFiles": [
-    "_media/arduino-ide-download-site.png",
+    "_media/arduino-ide-installation-guide.png",
     "02_aufgaben_dokumentation/01_Entwicklungsumgebung einrichten.md",
+    "_media/arduino-ide-download-site.png",
     "_media/serial-monitor-button.png",
     "_media/Screenshot 2025-12-15 000558.png",
     "_media/upload-button.png",
@@ -200,7 +201,6 @@
     "firmware/tests",
     "firmware",
     "Pasted image 20251214233234.png",
-    "_media/arduino-ide-select-port.png",
     "_media/Untitled",
     "02_aufgaben_dokumentation/02_Hardware Grundlagen aufbauen und Testen mit dem Taster.md",
     "02_aufgaben_dokumentation/05_MQTT Verbindung programmieren zum ESP32.md",
