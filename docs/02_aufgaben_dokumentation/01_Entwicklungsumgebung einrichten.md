@@ -7,10 +7,10 @@ Offizielle Download-Seite:
 https://www.arduino.cc/en/software/
 
 Auf der Seite nach unten scrollen und das passende Betriebssystem auswählen.  
-![](../_media/arduino-ide-download-site.png)
+![](../media/arduino-ide-download-site.png)
 
 Die heruntergeladene `.exe` Datei öffnen und dem Installationsassistenten folgen.  
-![](/_media/arduino-ide-installation-guide.png)
+![](../media/arduino-ide-installation-guide.png)
 
 ---
 
@@ -20,7 +20,7 @@ Nach der Installation die Arduino IDE starten.
 Links in der Seitenleiste auf **Boards** klicken, um den Boardmanager zu öffnen.  
 Im Suchfeld **esp32** eingeben und das Paket  
 **esp32 by Espressif Systems** installieren.  
-![](arduino-ide-board-manager.png)
+![](../media/arduino-ide-board-manager.png)
 
 ---
 
@@ -29,7 +29,7 @@ Nach der Installation das richtige Board auswählen.
 
 Pfad in der Arduino IDE:  
 **Tools → Board → esp32 → ESP32 Dev Module**  
-![](arduino-ide-select-board.png)
+![](../media/arduino-ide-select-board.png)
 
 ---
 
@@ -40,13 +40,13 @@ Download-Seite:
 https://sparks.gogo.co.nz/ch340.html
 
 Passenden Treiber herunterladen.  
-![](download-ch340-drivers.png)
+![](../media/download-ch340-drivers.png)
 
 ZIP-Datei entpacken und die `.exe` Datei ausführen.  
-![](unpack-ch340-and-install.png)
+![](../media/unpack-ch340-and-install.png)
 
 Im Installer auf **INSTALL** klicken.  
-![](install-ch340.png)
+![](../media/install-ch340.png)
 
 ---
 
@@ -56,12 +56,12 @@ Den **Geräte-Manager** öffnen und zu
 
 Bei korrekter Installation erscheint ein Eintrag wie z. B.:  
 **USB-SERIAL CH340 (COMx)**  
-![](esp32-port.png)
+![](../media/esp32-port.png)
 
 Anschließend zurück zur Arduino IDE wechseln und den Port auswählen:
 
 **Tools → Port → COMx**  
-![](arduino-ide-select-port.png)
+![](../media/arduino-ide-select-port.png)
 
 ---
 
@@ -73,11 +73,11 @@ Das Skript aus folgendem Pfad kopieren:
 
 Das Skript in eine `.ino` Datei einfügen.  
 Wichtig: Der Ordner muss **denselben Namen wie die `.ino` Datei** haben.  
-![](ordner-structure-testscript.png)  
-![](copy-paste-testscript.png)
+![](../media/ordner-structure-testscript.png)  
+![](../media/copy-paste-testscript.png)
 
 Den Upload starten, indem auf den Pfeil links oben geklickt wird.  
-![](upload-button.png)
+![](../media/upload-button.png)
 
 Nach dem Upload den **Serial Monitor** rechts oben öffnen.  
-![](serial-monitor-button.png)
+![](../media/serial-monitor-button.png)
