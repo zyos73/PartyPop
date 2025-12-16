@@ -33,15 +33,15 @@ sondern auf mehrere Tage verteilt.
 
 | Datum     | Uhrzeit (von–bis) | Tätigkeit            | Zeit  |
 | --------- | ----------------- | -------------------- | ----- |
-| 04/Oct/25 | 14:00 – 17:00     | Dokumentation Teil 1 | 3,0 h |
-| 01/Nov/25 | 14:30 – 17:30     | Dokumentation Teil 2 | 3,0 h |
-| 14/Dec/25 | 15:00 – 18:00     | Dokumentation Teil 3 | 3,0 h |
+| 04/Oct/25 | 14:00 – 17:00     | Dokumentation Teil 1 | 2,0 h |
+| 01/Nov/25 | 14:30 – 17:30     | Dokumentation Teil 2 | 2,0 h |
+| 14/Dec/25 | 15:00 – 18:00     | Dokumentation Teil 3 | 2,0 h |
 
 **Zwischensumme Dokumentation:**  
-**9,0 h**
+**6,0 h**
 
 ---
 ## Gesamtzeit
 
 **Gesamtaufwand Projekt:**  
-**54,5 Stunden**
+**51,5 Stunden**

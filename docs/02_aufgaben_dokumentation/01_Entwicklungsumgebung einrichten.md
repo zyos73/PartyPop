@@ -81,3 +81,6 @@ Den Upload starten, indem auf den Pfeil links oben geklickt wird.
 
 Nach dem Upload den **Serial Monitor** rechts oben öffnen.  
 ![](../_media/serial-monitor-button.png)
+
+Danach sollte der Output so aussehen:
+![](../_media/serial-monitor-output.png)
